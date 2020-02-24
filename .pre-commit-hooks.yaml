@@ -1,5 +1,5 @@
 -   id: cfn-python-lint
     name: AWS CloudFormation Linter
-    entry: cfn-lint
+    entry: cfn-lint --ignore-checks W3011
     language: python
     files: \.(json|yaml|yml)$
